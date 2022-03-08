@@ -5,6 +5,12 @@ Create and delete a temporary file for passing the inputs string.
 ## Usage
 ### Run vim
 ```Go
+import (
+	"fmt"
+
+	"github.com/kotaoue/go-eeditor"
+)
+
 func main() {
 	editor := eeditor.NewEditor()
 	b, _ := editor.Open()
